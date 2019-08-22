@@ -10,3 +10,4 @@ The sys_ff.cpp is meant to find the maximum likelihood parameters very accuratel
 
 MCMC code uses a proposal distribution which is mix of fisher jumps, draws from prior, differential evolution, and parallel tempering.
 
+Requires Eigen, Boost, GSL, and FFTW libraries.
