@@ -6,7 +6,7 @@ The fisher code also checks for the condition number of the fisher and adjusts s
 
 Likelihood is maximized over the extrinsic parameters of the eccentric model (t_c, l_c, lambda_c)
 
-The sys_ff.cpp is meant to find the maximum likelihood parameters very accurately using a very large SNR injection and many parallel tempering chains
+The sys_ff.cpp is meant to find the maximum likelihood parameters very accurately using a very large SNR injection and many parallel tempering chains, such that the coldest chain explores a very narrow likelihood peak. 
 
 MCMC code uses a proposal distribution which is mix of fisher jumps, draws from prior, differential evolution, and parallel tempering.
 
